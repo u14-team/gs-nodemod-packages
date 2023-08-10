@@ -1,0 +1,16 @@
+{
+  "allowSyntheticDefaultImports": true,
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "types": ["node"],
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "inlineSourceMap": true,
+    "resolveJsonModule": true,
+    "declaration": true,
+  },
+}
