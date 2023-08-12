@@ -2,7 +2,7 @@
   "allowSyntheticDefaultImports": true,
   "compilerOptions": {
     "esModuleInterop": true,
-    "types": ["node"],
+    "types": ["node", "@gs-nodemod/types"],
     "target": "esnext",
     "module": "esnext",
     "moduleResolution": "node",
