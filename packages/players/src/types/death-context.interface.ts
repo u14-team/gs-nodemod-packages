@@ -1,6 +1,6 @@
 export default interface IDeathContext<T = any> {
-  killer: object;
-  victim: object;
+  killer: Entity;
+  victim: Entity;
   killerState: T | null;
   victimState: T;
   isSuicide: boolean;

@@ -29,5 +29,8 @@
   "dependencies": {
     "@gs-nodemod/messages": "^0.1.0"
   },
+  "devDependencies": {
+    "@gs-nodemod/types": "^0.1.0"
+  },
   "license": "MIT"
 }
