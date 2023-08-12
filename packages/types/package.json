@@ -1,0 +1,21 @@
+{
+  "name": "@gs-nodemod/types",
+  "types": "index",
+  "typings": "index.d.ts",
+  "version": "0.1.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "TheEVolk (https://t.me/theevolk)",
+  "repository": "github:u14-team/gs-nodemod-packages",
+  "bugs": "https://github.com/u14-team/gs-nodemod-packages/issues",
+  "keywords": [
+    "half-life",
+    "goldsource",
+    "gs-nodemod"
+  ],
+  "files": [
+    "lib/"
+  ],
+  "license": "MIT"
+}

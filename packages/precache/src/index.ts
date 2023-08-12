@@ -1,11 +1,19 @@
 export default class NodemodPrecache {
+  private static resources = [];
   private static queue = [];
 
   public static init() {
     nodemod.on('dllSpawn', () => {
       while (this.queue.length) {
-        this.queue.pop()();
+        const f = this.queue.pop();
+        this.resources.push(f);
+        f();
       }
+    });
+
+    nodemod.on('dllServerActivate', () => {
+      this.queue.push(...this.resources);
+      this.resources = [];
     });
   }
 
